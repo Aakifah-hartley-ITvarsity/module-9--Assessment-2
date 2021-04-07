@@ -1,0 +1,45 @@
+
+body{
+background-image: url(img/world\ clock.gif) ;
+background-size: cover;
+color: whitesmoke;
+font-family: "Raleway", sans-serif;
+}
+
+#local{
+    width: 100%;
+    background-color: crimson;
+    padding: 15px 0;
+    margin: 0;
+
+    
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+#cities td{
+    border: 1px solid red;
+    padding: 8px;
+
+}
+
+#cities tr:nth-child(even){
+    background-color: rgb(15, 34, 50);
+
+}
+
+.col1{
+    width: 10%;
+
+}
+
+.col2{
+    width: 45%;
+}
